@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <TextView
+        android:id="@+id/tv_boleta_item_nombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textSize="14sp"
+        tools:text="Pan Integral Orgánico"/>
+
+    <TextView
+        android:id="@+id/tv_boleta_item_cantidad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="14sp"
+        tools:text="x3"/>
+
+    <TextView
+        android:id="@+id/tv_boleta_item_precio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:gravity="end"
+        android:textSize="14sp"
+        tools:text="$1500 c/u"/>
+
+    <TextView
+        android:id="@+id/tv_boleta_item_subtotal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:textStyle="bold"
+        android:gravity="end"
+        android:textSize="14sp"
+        tools:text="$4500"/>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">DonPan</string>
+    <string name="nombre">Nombre de la persona</string>
+    <string name="tipo_pan">Tipo de pan</string>
+    <string name="cantidad">Cantidad de panes</string>
+    <string name="telefono">Numero Cecular</string>
+    <string name="bienvenido">Bienvenido!Realize su Compra: </string>
+    <string name="hint_pan">Batida, Ayuya, Coliza... </string>
+    <string name="hint_telefono">+56984616109 </string>
+    <string name="resumen">Resumen de su Pedido </string>
+    <string name="btn_pedido"> Realizar Pedido</string>
+    <string name="btn_volver">Volver </string>
+    <string name="btn_confirmar">Confirmar Pedido </string>
+    <string name="boleta_titulo">Gracias por su compra!</string>
+    <string name="boleta_detalles">Detalles su compra</string>
+    <string name="titulo_lgn">Login</string>
+    <string name="usuario_lgn">Correo</string>
+    <string name="btn_lgn">Ingresar</string>
+    <string name="btn_registrarse">Registrarse</string>
+    <string name="titulo_rgtro">Ingrese los datos de su cuenta</string>
+    <string name="titulo_agre_pro">Agrege un producto</string>
+    <string name="btn_agre_pro">Agregar Producto</string>
+
+    <string-array name="spinner_opciones">
+        <item>Ayuya</item>
+        <item>Batido</item>
+        <item>Coliza</item>
+        <item>Amasado</item>
+    </string-array>
+</resources>
